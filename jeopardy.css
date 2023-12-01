@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(117, 110, 236);
+  color: black;
+  text-align: center;
+}
+
+header {
+  background-color:rgb(236, 192, 110);
+  color: white;
+  padding: 10px 0;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: greenyellow;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+}
+
+td {
+  background-color: white;
+  border: 1px solid black;
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#spin-container {
+  display: none;
+  margin-top: 20px;
+}
+
+button {
+  background-color: teal;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
